@@ -64,11 +64,28 @@ h2{
 }
 /*azioni*/
 
+.goals{
+    background-color: violet;
+}
+
 .editorial{
     background-color: aqua;
 }
 
+.recouting{
+    background-color:green ;
+}
 
+.mobile{
+    background-color: yellowgreen;
+}
+.website{
+    background-color: blueviolet;
+}
+
+.venduto{
+    background-color: pink;
+}
 
 /*simboli*/
 
@@ -97,3 +114,8 @@ h2{
     border
 }
 
+/*Testi in Grassetto*/
+
+h3{
+   margin-top: 20px;
+}
