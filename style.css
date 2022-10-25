@@ -1,0 +1,17 @@
+/*RESET CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*head*/
+
+h2{
+    display: inline;
+    line-height: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family:fantasy ;
+}
+
