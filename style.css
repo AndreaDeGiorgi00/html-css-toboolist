@@ -10,6 +10,15 @@ body{
 }
 
 /*utilities*/
+
+.azioni{
+    display: inline-block;
+    border-radius:20px ;
+    color: white;
+    padding: 3px;
+}
+
+
 .intro{
     background-color: lightgray;
 }
@@ -17,11 +26,12 @@ body{
 .contenitore{
     width: 60%;
     margin: 10px auto;
-    height: 200px;
     background-color: lightgray;
+    padding:20px 20px;
 }
 
 /*head*/
+
 
 h2{
     display: inline;
@@ -52,3 +62,38 @@ h2{
     background-color: whitesmoke;
     color: grey;
 }
+/*azioni*/
+
+.editorial{
+    background-color: aqua;
+}
+
+
+
+/*simboli*/
+
+
+
+.simboli{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border:solid 1px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+
+}
+
+.check{
+    border-color: green;
+    color: green;
+
+}
+
+.ics{
+    border-color: red;
+    color: red;
+    border
+}
+
