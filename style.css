@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: gray;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -16,14 +17,15 @@ body{
 
 
 .contenitore.little{
-    padding:20px 20px;
-    border-bottom:solid 10px gray;
+    padding:20px 40px;
     border-radius: 20px 20px 0 0 ;
+    margin-top: 30px;
 }
 
 .contenitore.big{
     border-radius: 0 0 20px 20px;
-    padding:20px 20px;
+    padding:20px 40px;
+    margin-bottom: 100px;
 }
 
 li{
@@ -40,18 +42,19 @@ li{
     display: inline-block;
     border-radius:20px ;
     color: white;
-    padding: 3px;
+    padding: 5px 10px;
+    font-size: 13px;
 }
 
 
 .intro{
-    background-color: lightgray;
+    background-color: white;
 }
 
 .contenitore{
     width: 60%;
-    margin: 10px auto;
-    background-color: lightgray;
+    margin: 1px auto;
+    background-color: white;
     
 }
 
@@ -87,9 +90,11 @@ h2{
 }
 
 
-.c{
+.button.c{
     background-color: whitesmoke;
     color: grey;
+    border: solid 1px black;
+    padding:3px 10px;
 }
 /*azioni*/
 
@@ -102,18 +107,18 @@ h2{
 }
 
 .recouting{
-    background-color:green ;
+    background-color:rgb(6, 75, 6) ;
 }
 
 .mobile{
-    background-color: yellowgreen;
+    background-color: orange;
 }
 .website{
     background-color: blueviolet;
 }
 
 .venduto{
-    background-color: pink;
+    background-color:green;
 }
 
 /*simboli*/
